@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Bidsheet</title>
+</head>
+<body>
+    
+    <h2 class="bid-id">A1</h2>
+    <h1 class="bid-name">Stearns Debut Album Sparl</h1>
+    <p>Min Bid $ <span class="bid-min">5.00</span></p>
+
+    <table>
+        <caption>Please Print Neatly!</caption>
+        <thead>
+            <tr>
+                <th scope="col">Paddle Number</th>
+                <th scope="col">Name (Please print)</th>
+                <th scope="col">How Many?</th>
+                <th scope="col">Bid Price Each</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td class="paddle-number">Paddle Number</td>
+                <td class="name">Name</td>
+                <td class="quantity">quantity</td>
+                <td class="price">Bid Price</td>
+            </tr>
+            
+            <tr>
+                <td class="paddle-number">Paddle Number</td>
+                <td class="name">Name</td>
+                <td class="quantity">quantity</td>
+                <td class="price">Bid Price</td>
+            </tr>
+
+            <tr>
+                <td class="paddle-number">Paddle Number</td>
+                <td class="name">Name</td>
+                <td class="quantity">quantity</td>
+                <td class="price">Bid Price</td>
+            </tr>
+
+            <tr>
+                <td class="paddle-number">Paddle Number</td>
+                <td class="name">Name</td>
+                <td class="quantity">quantity</td>
+                <td class="price">Bid Price</td>
+            </tr>
+
+            <tr>
+                <td class="paddle-number">Paddle Number</td>
+                <td class="name">Name</td>
+                <td class="quantity">quantity</td>
+                <td class="price">Bid Price</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h2>Submit a new Bid here:</h2>
+
+    <div class="form-block">
+        <form action="" method="POST">
+                       
+            <div class="row">
+                <label for="quantity-input">Select quantity here:</label>
+                <select name="quantity">
+                	<option value="10">10$</option>
+                	<option value="15">15$</option>
+                	<option value="20">20$</option>
+                </select>
+            </div>
+            
+            <div class="row">
+                <label for="bid-price-input">Enter your bid price here: <br>(digits only)</label>
+                <input type="number" id="bid-price-input">
+            </div>
+
+            <button type="submit" class="btn-submit">Submit</button>
+        </form>
+    </div>
+    
+
+
+</body>
+</html>

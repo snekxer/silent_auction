@@ -1,0 +1,95 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body {
+    padding: 50px;
+    text-align: center;
+}
+
+table {
+    width: 80%;
+    margin: 50px auto;
+	border-collapse: separate;
+	border-spacing: 0;
+	color: #4a4a4d;
+}
+
+th,
+td {
+	padding: 10px 15px;
+	vertical-align: middle;
+}
+
+thead {
+	background: #395870;
+	color: #fff;
+}
+
+th:first-child {
+	text-align: left;
+}
+
+td {
+	border-bottom: 1px solid #cecfd5;
+	border-right: 1px solid #cecfd5;
+}
+
+td:first-child {
+	border-left: 1px solid #cecfd5;
+}
+
+tbody tr:nth-child(even) {
+	background: #f0f0f2;
+}
+
+tfoot {
+	text-align: right;
+}
+
+tfoot tr:last-child {
+	background: #f0f0f2;
+	font-weight: 700;
+}
+
+/*-----Form-block-----*/
+
+.form-block {
+    width: 70%;
+    margin: 50px auto;
+    text-align: center;
+}
+
+.form-block .row {
+    margin: 10px 0;
+}
+
+.form-block .row label {
+    display: inline-block;
+    width: 35%;
+    margin-right: 5%;
+    font-size: 20px;
+}
+
+.form-block .row input[type="text"],
+.form-block .row input[type="number"],
+.form-block .row select {
+    display: inline-block;
+    width: 50%;
+    height: 30px;
+}
+
+.btn-submit {
+	display: inline-block;
+    text-decoration: none;
+    margin-top: 20px;
+	padding: 15px 30px;
+	background-color: #395870;
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 80%;
+    border-radius: 3px;
+    border: 0;
+}
